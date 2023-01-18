@@ -10,6 +10,8 @@ namespace myFirstConsoleApp
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("hello World...!");
+           // Console.ReadKey(); this make sure you program Stop for a while
         }
     }
 }
