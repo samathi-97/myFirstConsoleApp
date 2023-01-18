@@ -24,6 +24,12 @@ namespace myFirstConsoleApp
             Console.WriteLine("Enter your Name:");
             string myName =  Console.ReadLine();
             Console.WriteLine("name is - "+ myName);
+
+            //converting types
+            Console.WriteLine("Enter your input:");
+            string whatEverUserInput = Console.ReadLine();
+            int convertToInteger = Convert.ToInt32(whatEverUserInput);
+            Console.WriteLine(convertToInteger);
         }
     }
 }
