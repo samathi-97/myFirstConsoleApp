@@ -26,10 +26,51 @@ namespace myFirstConsoleApp
             Console.WriteLine("name is - "+ myName);
 
             //converting types
-            Console.WriteLine("Enter your input:");
+            Console.WriteLine("Enter your input(number):");
             string whatEverUserInput = Console.ReadLine();
             int convertToInteger = Convert.ToInt32(whatEverUserInput);
-            Console.WriteLine(convertToInteger);
+            Console.WriteLine("Wntered Number is : "+ convertToInteger);
+
+            /* making
+             * simple
+             * calculator
+             * using
+             * Swich cases
+             */
+            Console.WriteLine("Calculator using Switch cases :");
+            Console.WriteLine("type number 1");
+            string getNumber = Console.ReadLine();
+            int number1 = Convert.ToInt32(getNumber);
+
+            Console.WriteLine("type number 2");
+            string getNumber2 = Console.ReadLine();
+            int number2 = Convert.ToInt32(getNumber2);
+
+            Console.WriteLine("add operator:");
+            string opratorCal = Console.ReadLine();
+
+            switch(opratorCal)
+            {
+                case "+":
+                    Console.WriteLine(number2+ number1);
+                    break;
+
+                case "-":
+                    Console.WriteLine(number2 - number1);
+                    break;
+                case "*":
+                    Console.WriteLine(number2*number1);
+                    break;
+                case "/":
+                    Console.WriteLine(number2 / number1);
+                    break;
+
+            }
+            /*
+             * 
+             * end of Calculator
+             * 
+             */
         }
     }
 }
