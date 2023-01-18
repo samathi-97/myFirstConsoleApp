@@ -19,6 +19,11 @@ namespace myFirstConsoleApp
 
             int totalAmount = firstNumber + secondNumber;
             Console.WriteLine(totalAmount);
+
+            //geting inputs from user
+            Console.WriteLine("Enter your Name:");
+            string myName =  Console.ReadLine();
+            Console.WriteLine("name is - "+ myName);
         }
     }
 }
